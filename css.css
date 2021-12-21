@@ -1,0 +1,47 @@
+body {
+    margin: 10% auto;
+    max-width: 1000px;
+}
+
+#counterArea {
+    display:flex;
+    flex-direction: column;
+}
+
+button {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 48px;
+    line-height: 1;
+}
+
+#add {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#subtract {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+#counter {
+    width: 100%;
+    font-size: 200px;
+    font-weight: bold;
+}
+
+div {
+    width: 100%;
+}
+
+#buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
